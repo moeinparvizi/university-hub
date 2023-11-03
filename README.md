@@ -64,8 +64,7 @@ moein parvizi
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Screenshot from 2023-11-02 15-49-01](https://github.com/moeinparvizi/university-hub/assets/38692466/4599df68-c5da-4793-87a6-8c5a2619c754)
-![Screenshot from 2023-11-02 15-49-10](https://github.com/moeinparvizi/university-hub/assets/38692466/c7b74081-081f-4441-894e-fbc68fc2ec68)
+![Screenshot from 2023-11-04 02-19-29](https://github.com/moeinparvizi/university-hub/assets/38692466/efad1e33-9fee-4352-bf83-803d25d4b7bf)
 
 Hints :
 * teamwork
