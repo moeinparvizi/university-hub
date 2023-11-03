@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #212129;
+  width: 100%;
+  overflow: hidden; }
+  body > div > main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    body > div > main > h1 {
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      color: white;
+      text-transform: uppercase;
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 100px;
+      display: flex;
+      align-items: center; }
+      body > div > main > h1 > span {
+        padding: 10px;
+        background-color: #FFAA33;
+        color: black;
+        border-radius: 10px;
+        display: flex;
+        margin-left: 10px;
+        text-transform: lowercase; }
+    body > div > main > form {
+      height: 60px;
+      width: 600px;
+      display: flex; }
+      body > div > main > form > input {
+        height: 100%;
+        width: 85%;
+        border-radius: 50px 0 0 0px;
+        background-color: #131316;
+        border: none;
+        border-top: 2px solid #FFAA33;
+        border-left: 2px solid #FFAA33;
+        outline: none;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: #FFAA33;
+        padding-left: 30px;
+        font-size: 20px;
+        position: relative;
+        z-index: 2; }
+      body > div > main > form > span {
+        height: 100%;
+        width: 15%;
+        background-color: #FFAA33;
+        outline: none;
+        border-radius: 0 50px 0px 0;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .3s ease-in-out;
+        position: relative;
+        z-index: 2;
+        border-top: 2px solid #FFAA33;
+        border-right: 2px solid #FFAA33; }
+        body > div > main > form > span:hover {
+          background-color: #aaaaaa; }
+        body > div > main > form > span > svg {
+          width: 50px; }
+    body > div > main > ul {
+      width: 600px;
+      height: 300px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      border-radius: 0 0 25px 25px;
+      border: 2px solid #FFAA33;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 50px 0;
+      box-shadow: 0px 0px 55px 0px #FFAA33;
+      position: relative;
+      z-index: 1;
+      border-top: none;
+      transition: 2s; }
+      body > div > main > ul::-webkit-scrollbar {
+        display: none; }
+      body > div > main > ul > li {
+        height: 200px;
+        width: 40%;
+        background-color: rgba(0, 0, 0, 0.358);
+        list-style: none;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        transition: 2s; }
+        body > div > main > ul > li > h2 {
+          font-size: 20px;
+          color: white;
+          text-transform: uppercase;
+          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          font-weight: 600;
+          text-align: center; }
+        body > div > main > ul > li > p {
+          color: white;
+          font-size: 16px;
+          text-transform: capitalize;
+          text-align: center;
+          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+        body > div > main > ul > li > a {
+          text-decoration: none;
+          color: white;
+          width: 90%;
+          height: 50px;
+          background-color: #FFAA33;
+          border-radius: 8px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          cursor: pointer;
+          color: black;
+          font-size: 16px;
+          text-transform: uppercase;
+          font-weight: 600; }
+
+.error {
+  border: 1px solid red !important;
+  background-color: #ce8484 !important; }
+
+/*# sourceMappingURL=App.css.map */
