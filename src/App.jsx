@@ -36,7 +36,7 @@ function App() {
                         <li>
                           <h2>${val.name}</h2>
                           <p>${val.country}</p>
-                          <a href=${val.web_pages[0]} target="_blank" rel="noreferrer">${val.domain}</a>
+                          <a href=${val.web_pages[0]} target="_blank" rel="noreferrer">${val.domains}</a>
                         </li>
                       `;
                     } else {
